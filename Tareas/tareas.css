@@ -45,3 +45,6 @@ form {
     margin-top: 80px;
     top: 7%;
 }
+li{
+    list-style-type: none;
+}
