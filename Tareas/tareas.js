@@ -6,6 +6,8 @@ if (JSON.parse(localStorage.getItem("local")) == null){
 }else{
     arr = JSON.parse(localStorage.getItem("local"));
 }
+
+/* Aplicar elementos al frontend */
 document.addEventListener("DOMContentLoaded",function(){
     let lista = document.getElementById("lista");
     for(let e of arr){
@@ -21,7 +23,6 @@ document.addEventListener("DOMContentLoaded",function(){
         lista.appendChild(elemento);
     }
 });
-
 
 /* Agregar elementos al LS */
 document.getElementById("agregar").addEventListener("click",function(){
