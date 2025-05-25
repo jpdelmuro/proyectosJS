@@ -9,5 +9,5 @@ function opcion(elemento){
             inicio = true;
         }
     }
-
 }
+
